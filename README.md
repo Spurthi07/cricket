@@ -1,41 +1,33 @@
-## What is this?
+Cricket Score Sheet project is a simple project built using the C programming language. It is used  to store various information regarding runs, wickets, overs, extras, and many more. The program can display runs, wickets, names of batsmen and bowlers, overs, extras, economy of bowler, strike rate of batsmen, etc. The source code is complete, error-free and easy to understand.
 
-A gully cricket score board used to maintain the score of the team and individual players with runs, balls & strike rate including bowler's total over, maiden, runs given, economy, etc. This project was build using React JS and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cricket Score Board Project Abstract:
+     The C source code of this project is very simple and consists of two structures. They are listed below along with the tasks they perform.
+ 1)struct batsman:
+   It contains batsmans name,total runs scored by the batsman and fours,sixes,total score etc.
+2) struct bowler:
+   It contain bowlers name ,over,runs given ,economy rate ,wicket taken by the bowlers.
 
-## Screenshot
+In the main function,first we are getting the individual batsman detail and the individual bowles detail.
 
-![Select Teams](public/images/1.PNG) ![Overs](public/images/2.PNG) ![Who is Batting](public/images/3.PNG) ![Wicket Type](public/images/4.PNG) ![2nd Inning winning hint](public/images/5.PNG) ![Match Won](public/images/6.PNG) ![Score Board](public/images/7.PNG)
+When the project file of cricket score sheet project is executed, it works by following the steps described below:
+	First of all the project displays the output screen and the screen fades up to display the main menu.
+	The main menu comprises four options namely:
+	Batsman detail
+	Bowlers detail
+	Match summary
+	Record
+     Exit
+	
+         If 1) is entered,the batsman detail is displayed on the screen.It display the batsman name,toatal runs scored,balls faced,fours ,sixes and the strike rate.
 
-## Recommendation
+        If 2) is entered,the bowlers detiail is displayed on the screen.It display the bowlers name,overs,runs given,wicket taken and the economy rate of the bowler.
 
-This application is best viewed in Mobile/Phone browser.
+        If 3)is entered,the match summary is displayed on the screen.
 
-## Problem
+        If 4)is entered,the match records will be displyed like maximum runs,maximum sixes,mximum fours,maximum wicket taken etc.
+        
+        If 5)is entered,it is used to exit.
 
-Currently data has been managed using state. Hence don't refresh the page until the completion of match otherwise all data will be gone. For that you can use android application which you can **download** from the **Release Section**.
 
-## Is this live?
+Thus ,by entering the choice ,the user can see the cricket score board.
 
-Yes, this application is live and deployed in Netlify. You can check here [gully-cricket-score-board](https://gully-cricket.netlify.app/).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits. You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes. Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
